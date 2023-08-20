@@ -1,0 +1,150 @@
+.navbar-nav .nav-item .nav-link {
+    color: #939393;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0d6dfda1;
+}
+
+/*--------------*/
+
+.hero {
+
+    background: #ffeeaf;
+    background: #fff linear-gradient(270deg, #FFD983 20.91%, rgba(255, 217, 131, 0.87) 87.28%);
+}
+
+.hero form button {
+    transform: translateY(-50%);
+}
+
+.hero form  {
+    width: 85%;
+}
+
+.hero form:hover  {
+    outline: none;
+}
+
+.hero .text img {
+    width: 90px;
+}
+
+.hero .stars {
+    color: goldenrod;
+}
+
+.join iframe {
+    max-width: 100%;
+}
+
+@media (max-width:572px) {
+    .join iframe {
+        height: 245px;
+    }
+}
+
+.gen button {
+    transform: translateY(-50%);
+}
+
+.phot1 {
+    background: #03b4ba;
+}
+
+.phot1 .h2 {
+    bottom: 30px;
+    right: 60px;
+}
+
+.phot2 {
+    background: #ffcc59;
+}
+
+.phot2 .h2 {
+    bottom: 30px;
+    left: 60px;
+}
+
+.phot3 .h2 {
+    top: 30%;
+    right: 26%;
+}
+
+.phot4 {
+    background: #685bff;
+}
+
+.phot4 .h2 {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sayings .box {
+    background: #f9f9f9;
+    color: #7d7e8a;
+    height: 100%;
+}
+
+.sayings .stars {
+    color: goldenrod;
+}
+
+.sayings .box > i {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+    color: #d4d4d4;
+}
+
+.sayings .container > h6 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info {
+    background: url(../imgs/Continents.png);
+    background-size: cover;
+}
+
+.info::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.95;
+}
+
+.info img {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    width: 120px;
+    transform: translateX(-50%);
+}
+
+.gstart form button {
+    transform: translateY(-50%);
+}
+
+.gstart .form {
+    width: 70%;
+}
+
+.gstart .form input {
+    outline: none;
+    border: none;
+}
+
+@media (min-width: 992px) {
+    .gstart .form {
+        width: 40%;
+    }
+}
+
+.last {
+    background: #f9f9f9 linear-gradient(360deg, #F3F2F9 16.58%, rgba(243, 242, 249, 0) 50.07%);
+}
